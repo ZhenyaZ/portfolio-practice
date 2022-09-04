@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    src: url(fonts/Gilroy-Light.woff) format('woff');
+}
+@font-face {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    src: url(fonts/Gilroy-ExtraBold.woff) format('woff');
+}
+a{
+    color: black;
+}
+body{
+    margin: 0;
+    font-family: 'Gilroy';
+    font-weight: 800;
+    max-width: 1445px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 943px;
+    margin: 0px 260px;
+}
+/* HEADER */
+.header {
+
+}
+.nav {
+    display:inline-block;
+    white-space: nowrap;
+    vertical-align: top;
+    width: 943px;
+    margin-top: 23px;
+    border-bottom: 1px solid black;
+}
+.nav-item {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    margin-right: 150px;
+}
+.line-break {
+    width: 925px;
+
+}
+.header-container {
+}
+.header-content {
+}
+.header-bio{
+    display: flex;
+    align-items: center;
+}
+.header-name-person {
+    margin-top: 39px;
+}
+.header-min-bio {
+    margin-top: 64px;
+    padding-left: 297px;
+}
+.header-min-bio p {
+    font-weight: 300;
+    line-height: 22px;
+    font-size: 18px;
+}
+.image-person{
+    display: flex;
+    margin-top: 30px;
+
+}
+.image-person img {
+    width: 925px;
+    height: 387px;
+}
+
+/* ABOUT ME */
+.main {
+    margin-top: 105px;
+}
+.about {
+    background-color: #F6F6F6;
+    width: 946px;
+    height: 506px;
+}
+.about-title {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 42px;
+   
+}
+.about-info {
+    text-align: center;
+}
+.about-info-text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+}
+/* Skills */
+.skills-title {
+    padding-top: 91px;
+    text-align: center;
+}
+.skills-title h2 {
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 42px;
+}
+.skills-title-proggramm {
+    text-align: center;
+    margin-top: 69px;
+}
+.skills-title-proggramm p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+}
+/* Card */
+/* Photoshop card */
+.card-skills {
+    display:flex;
+    margin-top: 83px;
+    
+}
+.photoshop-card {
+    width: 170px;
+    height: 230px;
+}
+.logo {
+    margin: 0px 42px;
+}
+.photoshop-card-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    padding-top: 23px;
+}
+.rating-photoshop-img {
+    margin-top: 40px;
+}
+/* Ilustrator card */
+.ilustrator-card {
+    margin-left: 90px;
+    width: 170px;
+    height: 230px;
+}
+.iilustrator-card-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    padding-top: 23px;
+}
+.rating-ilustrator-img {
+    margin-top: 40px;
+}
+/* After effects card */
+.aftereffects-card {
+    margin-left: 90px;
+    width: 170px;
+    height: 230px;
+}
+.aftereffects-card-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    padding-top: 23px;
+}
+.rating-aftereffects-img {
+    margin-top: 40px;
+}
+/* Figma card */
+.figma-card {
+    margin-left: 90px;
+    width: 170px;
+    height: 230px;
+}
+.figma-card img{
+    margin: 0px 57px;
+}
+.figma-card-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    padding-left: 99px;
+    padding-top: 23px;
+}
+.rating-figma-img{
+    align-items:flex-start;
+    margin-top: 56px;
+}
+/* Portfolio */
+.portfolio {
+    margin-top: 222px;
+    background-color: #F6F6F6;
+}
+.portfolio-title {
+    padding-top:112px;
+    padding-bottom: 47px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.portfolio-fashion-store {
+    margin-top: 47px;
+}
+.portfolio-fashion-store-img {
+}
+.portfolio-fashion-store-site {
+    padding-top: 45px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+.portfolio-reebok-store {
+    margin-top: 99px;
+}
+.portfolio-reebok-store-img {
+}
+.portfolio-reebok-store-site {
+    padding-top: 45px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+}
+
+.portfolio-braun-store {
+    margin-top: 99px;
+}
+.portfolio-braun-store-img {
+}
+.portfolio-braun-store-site {
+    padding-top: 45px;
+    padding-bottom: 96px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+/* Footer */
+.footer {
+    margin-top: 210px;
+    text-align: center;
+    
+}
+.footer-content {
+}
+.footer-title {
+    padding-bottom: 20px;
+    padding-top: 114px;
+    text-align: center;
+}
+.footer-description {
+    text-align: center;
+}
+.footer-btn {
+    display: inline-block;
+    margin-top: 30px;
+    width: 180.5px;
+    height: 42px;
+    line-height: 50px;
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+    padding: 0 1rem;
+}
+.footer-btn-text{
+    color:white;
+    text-decoration: none;
+}
+.footer-socialnetwork {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+
+}
+.linkedin-logo {
+    padding-right: 61px;
+}
+.instagram-logo {
+    padding-right: 61px;
+}
+.be-logo {
+    padding-right: 61px;
+}
+.sphere-logo {
+}
+.footer-undescription{
+    padding-top: 45px;
+    padding-bottom: 123px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
